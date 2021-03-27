@@ -82,7 +82,8 @@ h1, h2, h3 {
 }
 
 .sixth-section {
-    min-height: 400px;
+    padding: 5rem 0;
+
 }
 
 .footer {
@@ -133,11 +134,11 @@ h1, h2, h3 {
 }
 
 .palestrante-thumb {
-    padding: 20px;
+    padding: 40px;
 }
 
 .palestrante-info {
-    padding: 5px 40px;
+    padding: 5px 10px;
 }
 
 .text-right {
