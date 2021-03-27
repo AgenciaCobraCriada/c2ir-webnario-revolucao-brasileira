@@ -33,3 +33,25 @@
     background-size: cover;
     height: 100vh;
 }
+.third-section{
+    min-height: 100vh;
+    background-image: url('/assets/img/bg-mid.png');
+
+}
+.fourth-section{
+    min-height: 100vh;
+    background-color: #810008;
+    background-image: url('/assets/img/bg-mid-2.png');
+
+}
+.fifth-section{
+    min-height: 100vh;
+    background-color: #111111;
+}
+.sixth-section{
+    min-height: 400px;
+}
+.footer{
+    background-color: #810008;
+    height: 100px;
+}
