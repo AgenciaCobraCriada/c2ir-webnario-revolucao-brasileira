@@ -88,7 +88,11 @@ h1, h2, h3 {
 
 .footer {
     background-color: #810008;
-    height: 100px;
+    /* height: 100px; */
+    text-align: center;
+    color:#fff;
+    padding: 2rem;
+    
 }
 
 .numbers {
