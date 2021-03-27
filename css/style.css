@@ -1,8 +1,11 @@
+
+p{
+    font-size: 1.4rem;
+}
 .logo-top img{
     height: 50px;
     width: auto;
 }
-
 .first-section{
     background-color: #E8E8E8;
     background-image: url('/assets/img/bg-top.png');
@@ -45,11 +48,12 @@
 
 }
 .fourth-section{
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background-color: #810008;
     background-image: url('/assets/img/bg-mid-2.png');
     background-size: cover;
-
+    color:#fff;
+    padding:5rem 0;
 
 }
 .fifth-section{
@@ -107,3 +111,4 @@
 .text-right{
     text-align: right;
 }
+
