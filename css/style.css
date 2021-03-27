@@ -1,0 +1,35 @@
+.logo-top img{
+    height: 50px;
+    width: auto;
+}
+
+.first-section{
+    background-color: #E8E8E8;
+    background-image: url('/assets/img/bg-top.png');
+    background-size: cover;
+    height: calc(100vh - 100px);
+    position: relative;
+    z-index: 1;
+}
+.top-section{
+    display: flex;
+    background-color: #00f1;
+}
+.img-bg-top{
+    position: absolute;
+    right: 0;
+    height:  100%;
+    width: 100%;
+    z-index: 10;
+    background-image: url(/assets/img/img-top.png);
+    background-size:auto 100% ;
+    background-repeat: no-repeat;
+    background-position-x:right
+}
+
+.second-section{
+    background-color: #363636;
+    background-image: url('/assets/img/bg-mid-1.png');
+    background-size: cover;
+    height: 100vh;
+}
