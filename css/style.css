@@ -87,3 +87,23 @@
     color:#fff;
     background-color: #a3000b;
 }
+.palestrante{
+    padding: 5px 40px;
+    margin: 3rem 0;
+    font-size: 1.3rem;
+}
+
+.palestrante-info span {
+    color:#810000;
+  
+}
+.palestrante-thumb{
+    padding: 20px;
+}
+.palestrante-info{
+    padding: 5px 40px;
+
+}
+.text-right{
+    text-align: right;
+}
