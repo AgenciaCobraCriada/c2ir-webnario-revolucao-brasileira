@@ -14,12 +14,12 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-4">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <div class="logo-top">
-                    <img src="/assets/img/dcm-lg.png" alt="">
-                    <img src="/assets/img/cobra-sm.png" alt="">
+                    <img src="/assets/img/dcm-lg.png" class="pe-3" alt="Cobra criada">
+                    <img src="/assets/img/cobra-sm.png" alt="DCM - Diário do Centro do Mundo">
                 </div>
 
             </a>
@@ -51,8 +51,13 @@
         <div class="img-bg-top d-none d-lg-block">
         </div>
         <div class="container top-section">
-            <div class="col">Text</div>
-            <div class="col d-none d-lg-block">img</div>
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-6 col-12 top-title">
+                    <h1>A ESQUERDA</h1>
+                    <h1>E A <SPAN>REVOLUÇÃO</SPAN></h1>
+                    <h1>BRASILEIRA</h1>
+                </div>
+            </div>
 
         </div>
     </div>
@@ -111,7 +116,7 @@
                         livre-docente em Filosofia e Teoria Geral do Direito pela USP. Autor, dentre outros, de
                         “Filosofia do Direito” (GEN-Atlas) e “Estado e Forma Política” (Boitempo).
                     </p>
-                    <p>Tema da palestra:<br>
+                    <p><strong>Tema da palestra:</strong><br>
                         <span>A REVOLUÇÃO BRASILEIRA:</span><br>
                         <span>BALANÇOS E PERSPECTIVAS</span>.
 
@@ -135,7 +140,7 @@
                         Lavrapalavra e Blog da Boitempo. É militante comunista pelo PCB.
 
                     </p>
-                    <p>Tema da palestra:<br>
+                    <p><strong>Tema da palestra:</strong><br>
                         <span>A COR DA REVOLUÇÃO BRASILEIRA: </span><br>
                         <span>RAÇA E CLASSE NA LUTA PELO PODER POPULAR</span>.
 
@@ -156,9 +161,9 @@
                         Estudos Econômicos (CEE) do Instituto para a Reforma das Relações Estado e Empresa (IREE).
 
                     </p>
-                    <p>Tema da palestra:<br>
-                        <span>DESAFIOS DA REVOLUÇÃO BRASILEIRA À LUZ DE CELSO ,
-                            <!-- FURTADO CAIO PRADO JUNIOR E FLORESTAN FERNANDES -->
+                    <p><strong>Tema da palestra:</strong><br>
+                        <span>DESAFIOS DA REVOLUÇÃO BRASILEIRA À LUZ DE CELSO FURTADO,<br>
+                            CAIO PRADO JUNIOR E FLORESTAN FERNANDES
                         </span><br>
                         <!-- <span>BALANÇOS E PERSPECTIVAS</span>. -->
 
@@ -180,7 +185,7 @@
                         do PCO.
 
                     </p>
-                    <p>Tema da palestra:<br>
+                    <p><strong>Tema da palestra:</strong><br>
                         <span>O NACIONALISMO BURGUÊS E O PARTIDO OPERÁRIO </span><br>
                         <span>NA REVOLUÇÃO BRASILEIRA.</span>
 
@@ -217,14 +222,20 @@
     <div class="fifth-section">
         <div class="container">
             <h2>OBJETIVO</h2>
-            <p>O objetivo desse webnário é o de reunir, em um só evento, quatro dos mais relevantes pensadores marxistas
-                do País, não necessariamente da mesma geração, mas parte do mesmo movimento de resiliência do pensamento
-                de Marx e adeptos da tese da revolução brasileira: Rui Costa Pimenta, jornalista e escritor, presidente
-                do Partido da Causa Operária (PCO); Alysson Leandro Mascaro, jurista, escritor e filósofo do direito
-                marxista; Jones Manoel, youtuber, historiador, educador popular e militante do Partido Comunista
-                Brasileiro (PCB); e Juliane Furno, youtuber, economista e militante do PSOL e do Levante Popular da
-                Juventude. </p>
-            <a class="button-participar" href="#">
+            <div>
+                <p>O objetivo desse webnário é o de reunir, em um só evento, quatro dos mais relevantes pensadores
+                    marxistas
+                    do País, não necessariamente da mesma geração, mas parte do mesmo movimento de resiliência do
+                    pensamento
+                    de Marx e adeptos da tese da revolução brasileira: Rui Costa Pimenta, jornalista e escritor,
+                    presidente
+                    do Partido da Causa Operária (PCO); Alysson Leandro Mascaro, jurista, escritor e filósofo do direito
+                    marxista; Jones Manoel, youtuber, historiador, educador popular e militante do Partido Comunista
+                    Brasileiro (PCB); e Juliane Furno, youtuber, economista e militante do PSOL e do Levante Popular da
+                    Juventude. </p>
+
+            </div>
+            <a class="button-participar" class="mt-5 d-block" href="#">
                 Quero me inscrever agora!
             </a>
         </div>
@@ -233,8 +244,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
-                    <img width="100%" src="/assets/img/cobra-lg.png">
-                    <img width="80%" src="/assets/img/dcm-lg.png">
+                    <img class="p-4" width="100%" src="/assets/img/cobra-lg.png">
+                    <img class="p-4" width="80%" src="/assets/img/dcm-lg.png">
 
                 </div>
                 <div class="col offset-md-1">
@@ -263,5 +274,10 @@
     </div>
 </body>
 <script src="/js/bootstrap.bundle.min.js"></script>
+<script src="/js/fittext.js"></script>
+<script>
+    window.fitText(document.querySelectorAll(".top-title h1"), .6); // turn the compressor down (font will shrink less aggressively)
+
+</script>
 
 </html>
