@@ -8,7 +8,7 @@ strong {
     font-weight: 600;
 }
 
-p {
+p, .nav-link  {
     font-size: 1.6rem;
 }
 
@@ -42,7 +42,22 @@ h1, h2, h3 {
     line-height: 85%;
 
 }
+.top-title p{
+    font-family: stratos, sans-serif;
+    font-weight: 700;
+    margin: 0;
+    line-height: 120%;
+}
+.top-title .red{
+    color: #980500;
+}.top-title .divider{
+    height:15px;
+    width: 62%;
+    margin-top: 10px;
+    background-color:#000  !important;
+    color:#000  !important;
 
+}
 .img-bg-top {
     position: absolute;
     right: 0;
@@ -111,7 +126,7 @@ h1, h2, h3 {
 }
 
 .button-participar {
-    background-color: #810000;
+    background-color: #980500;
     width: 100%;
     padding: 1.5rem;
     color: #ddd;
@@ -124,11 +139,14 @@ h1, h2, h3 {
     font-family: stratos, sans-serif;
     font-weight: 600;
     font-size: 2rem;
+
+    box-shadow: inset 10px 10px 10px #bd0800, inset -10px -10px 10px #780300
+
 }
 
 .button-participar:hover {
     color: #fff;
-    background-color: #b9000c;
+    background-color: #a7010c;
 }
 
 .palestrante {
