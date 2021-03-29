@@ -13,7 +13,7 @@ p {
 }
 
 h1, h2, h3 {
-    font-family: stratos, sans-serif;
+    font-family: stratos, arial;
     font-weight: 600;
     font-style: normal;
 }
@@ -32,9 +32,15 @@ h1, h2, h3 {
     z-index: 1;
 }
 
-.top-section {
-    display: flex;
-    background-color: #00f1;
+
+.top-section{
+    height: 100%;
+}
+.top-title h1 {
+    font-family: carlmarx, sans-serif;
+    font-weight: 700;
+    line-height: 85%;
+
 }
 
 .img-bg-top {
@@ -83,16 +89,14 @@ h1, h2, h3 {
 
 .sixth-section {
     padding: 5rem 0;
-
 }
 
 .footer {
     background-color: #810008;
     /* height: 100px; */
     text-align: center;
-    color:#fff;
+    color: #fff;
     padding: 2rem;
-    
 }
 
 .numbers {
@@ -147,4 +151,10 @@ h1, h2, h3 {
 
 .text-right {
     text-align: right;
+}
+
+.top-title span {
+    color: #810008;
+    text-shadow: 5px 5px 0 #000;
+
 }
