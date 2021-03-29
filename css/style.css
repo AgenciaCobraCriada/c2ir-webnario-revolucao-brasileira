@@ -11,7 +11,10 @@ strong {
 p, .nav-link  {
     font-size: 1.6rem;
 }
-
+a.nav-link{
+    color:#fff  !important;
+    margin: 0 20px;
+}
 h1, h2, h3 {
     font-family: stratos, arial;
     font-weight: 600;
